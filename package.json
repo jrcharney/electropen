@@ -1,0 +1,31 @@
+{
+  "name": "electropen",
+  "version": "0.1.0",
+  "description": "A local Codepen editor and eventually manager of assets, pens, posts, and projects",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrcharney/electropen.git"
+  },
+  "keywords": [
+    "codepen",
+    "html5",
+    "css3",
+    "es6"
+  ],
+  "author": "Jason Charney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrcharney/electropen/issues"
+  },
+  "homepage": "https://github.com/jrcharney/electropen#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "electron": "1.7.8"
+  }
+}
