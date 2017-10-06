@@ -16,7 +16,8 @@ git init          # initalize the local directory as a git repository
 git add .         # Adds the files in the local repository and store the for commit
 git commit -m 'First commit'
 git remote add origin https://github.com/jrcharney/electropen
-gut push -u origin master   # push the local changes to the remote
+git remote -v               # verify new remote
+git push -u origin master   # push the local changes to the remote
 
 # Express can be installed in two ways:
 # * The generator way:     https://expressjs.com/en/starter/generator.html

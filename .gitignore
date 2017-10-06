@@ -1,1 +1,5 @@
+# Do not upload the node_modules directory!
 node_modules
+
+# Don't let macs try to share that .DS_Store file.
+.DS_Store
